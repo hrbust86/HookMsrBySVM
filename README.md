@@ -18,6 +18,8 @@ This project would not be done without your help.
 
 SimpleSvmHookMsr  is a minimalistic for hook msr to monitor syscall in x64.
 
+Any questions could send a email to "hrbust86@126.com"
+
 
 
 SimpleSvm is a minimalistic educational hypervisor for Windows on AMD processors.
