@@ -115,12 +115,12 @@ BOOL StartAmdSvmAndHookMsr()
 		goto EXIT;
 	}
 
-	status = SyscallHookEnable();
-	if (!NT_SUCCESS(status))
-	{
-		SvDevirtualizeAllProcessors();
-		goto EXIT;
-	}
+// 	status = SyscallHookEnable();
+// 	if (!NT_SUCCESS(status))
+// 	{
+// 		SvDevirtualizeAllProcessors();
+// 		goto EXIT;
+// 	}
 
 	ret = TRUE;
 
